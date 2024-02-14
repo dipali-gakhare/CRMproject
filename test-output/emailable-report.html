@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Free CRM Application</th></tr>
+<tr><td><a href="#t0">Free crm App test case</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">304,995</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Free CRM Application</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free crm App test case &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.Testcase.HomePageTest</td><td><a href="#m0">SeleniumgpageTest</a></td><td rowspan="1">1707384257280</td><td rowspan="1">85126</td></tr><tr><th colspan="4">Free crm App test case &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.crm.qa.Testcase.HomePageTest</td><td><a href="#m1">EditCustomerPageTest</a></td><td rowspan="1">1707384410609</td><td rowspan="1">966</td></tr><tr class="passedeven"><td><a href="#m2">HomepageTitleTest</a></td><td rowspan="1">1707384210525</td><td rowspan="1">66</td></tr><tr class="passedeven"><td><a href="#m3">InsurancepageTest</a></td><td rowspan="1">1707384385909</td><td rowspan="1">2938</td></tr><tr class="passedeven"><td><a href="#m4">NewAccountPageTest</a></td><td rowspan="1">1707384428884</td><td rowspan="1">763</td></tr><tr class="passedeven"><td><a href="#m5">TestingLinkTest</a></td><td rowspan="1">1707384226493</td><td rowspan="1">135</td></tr><tr class="passedodd"><td rowspan="3">com.crm.qa.Testcase.LoginPsgrtest</td><td><a href="#m6">GuruLogopageTest</a></td><td rowspan="1">1707384469221</td><td rowspan="1">760</td></tr><tr class="passedodd"><td><a href="#m7">Logintest</a></td><td rowspan="1">1707384483332</td><td rowspan="1">2071</td></tr><tr class="passedodd"><td><a href="#m8">loginPagetitleTest</a></td><td rowspan="1">1707384444580</td><td rowspan="1">29</td></tr></tbody>
+</table>
+<h2>Free crm App test case</h2><h3 id="m0">com.crm.qa.Testcase.HomePageTest#SeleniumgpageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=109.0.5414.168)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [052abea0264c2ef3becb92c465f2f627, clickElement {id=a4e1511d-f764-4514-9404-a29cb63ebd48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\DipakB\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62175/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (052abea0264c2ef3becb92c465f2f627)] -&gt; xpath: //tbody/tr[1]/td[2]/a[1]/img[1]]
+Session ID: 052abea0264c2ef3becb92c465f2f627
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at com.crm.qa.pages.Homepage.ClickSeleniumlink(Homepage.java:45)
+	at com.crm.qa.Testcase.HomePageTest.SeleniumgpageTest(HomePageTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.qa.Testcase.HomePageTest#EditCustomerPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.qa.Testcase.HomePageTest#HomepageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.qa.Testcase.HomePageTest#InsurancepageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.qa.Testcase.HomePageTest#NewAccountPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.qa.Testcase.HomePageTest#TestingLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.crm.qa.Testcase.LoginPsgrtest#GuruLogopageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.crm.qa.Testcase.LoginPsgrtest#Logintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.crm.qa.Testcase.LoginPsgrtest#loginPagetitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
